@@ -1,0 +1,50 @@
+@import './normalize.scss';
+@import './fonts.scss';
+@import './variables';
+
+// Blocks
+@import './section-title.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'TT Hoves Pro', 'Roboto', sans-serif;
+  font-weight: var(--medium);
+  color: var(--font);
+  background: var(--bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.container {  
+  min-width: 320px;   
+  padding: 0 20px;   
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+

@@ -1,1 +1,1 @@
-# glaz-ai
+# bridge-landing
